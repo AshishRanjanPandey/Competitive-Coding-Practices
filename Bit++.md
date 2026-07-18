@@ -41,6 +41,9 @@ public class Main {
         
         // Print the final value of x
         System.out.println(x);
+         scanner.close();
+    }
+}
 ```
 
 ### 📊 Complexity Analysis
@@ -49,6 +52,4 @@ public class Main {
 | :--- | :---: | :--- |
 | **Time Complexity** | $O(n)$ | We iterate through the sequence of $n$ statements exactly once. Inside the loop, `charAt(1)` checks the character in $O(1)$ constant time. |
 | **Space Complexity** | $O(1)$ | Constant auxiliary space is used. The program only stores the integer variable `x` and reads each statement one at a time without allocating memory proportional to $n$. |
-        scanner.close();
-    }
-}
+       
