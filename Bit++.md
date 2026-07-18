@@ -41,6 +41,7 @@ public class Main {
         
         // Print the final value of x
         System.out.println(x);
+```
 
 ### 📊 Complexity Analysis
 
