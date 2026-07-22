@@ -18,10 +18,6 @@ What is the least number of flagstones needed to pave the Square? It's allowed t
 
 import java.util.Scanner;
 
-/**
- * Problem: Theatre Square (Codeforces 1A)
- * Language: Java 17
- */
 public class TheatreSquare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
