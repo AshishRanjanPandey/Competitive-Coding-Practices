@@ -12,8 +12,7 @@ What is the least number of flagstones needed to pave the Square? It's allowed t
 2. **Ceiling Division:** The number of flagstones along a side of length $x$ is $\lceil x / a \rceil$. In integer arithmetic, ceiling division can be calculated without floating-point errors as `(x + a - 1) / a`.
 3. **64-bit Integer Overflow:** Given $1 \le n, m, a \le 10^9$, the total flagstones required can be up to $10^{18}$. This exceeds 32-bit signed integers (`int`), so 64-bit integers (`long` in Java) are required.
 
----
-
+```
 ### 💻 Java Solution
 
 import java.util.Scanner;
@@ -40,7 +39,7 @@ public class TheatreSquare {
     }
 }
 
----
+```
 
 ### ⏱️ Complexity
 * **Time Complexity:** $\mathcal{O}(1)$ — constant time arithmetic calculations.
